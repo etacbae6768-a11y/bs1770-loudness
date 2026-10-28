@@ -1,0 +1,15 @@
+{
+  "name": "bs1770-loudness",
+  "version": "1.0.0",
+  "description": "Loudness (LUFS), loudness range and true peak per ITU-R BS.1770 / EBU R 128 in plain JavaScript. No dependencies, Node.js and browser.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": { ".": "./index.mjs" },
+  "files": ["index.mjs", "src/", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["loudness", "lufs", "bs1770", "ebu-r128", "true-peak", "lra", "audio", "web-audio"],
+  "homepage": "https://freesoundtools.com/en/tools/loudness/",
+  "repository": { "type": "git", "url": "https://github.com/etacbae6768-a11y/bs1770-loudness.git" },
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
